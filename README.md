@@ -1,24 +1,24 @@
 # NexusHCM
 
-# HumanCapital-Hub 🚀
+# HumanCapital-Hub 
 
 HumanCapital-Hub is a robust, full-stack Human Capital Management (HCM) portal designed to simplify and automate employee operations. It features a sophisticated Role-Based Access Control (RBAC) system, allowing for distinct workflows for Managers and Employees.
 
-## ✨ Features
+## Features
 
-### 👤 Employee Dashboard
+### Employee Dashboard
 * **Self-Service:** Add, edit, and manage personal profile details.
 * **Attendance Tracking:** Log daily attendance with real-time status updates.
 * **Salary Insights:** View detailed personal salary breakdowns.
 * **Leave Management:** Apply for leaves and track status (Pending, Approved, Rejected).
 * **Employee Directory:** View basic details of colleagues (Read-only access).
 
-### 👨‍💼 Manager Dashboard
+### Manager Dashboard
 * **Administrative Control:** Full CRUD access to view and edit all employee records.
 * **Workforce Monitoring:** Real-time monitoring of attendance and salary data across the team.
 * **Leave Approvals:** Dedicated interface to review, approve, or reject employee leave requests.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 * **React.js (Vite):** Fast, component-based UI development.
@@ -32,7 +32,7 @@ HumanCapital-Hub is a robust, full-stack Human Capital Management (HCM) portal d
 * **Drizzle ORM:** TypeScript-optimized Object-Relational Mapping for database safety.
 * **Zod:** Robust schema validation for API requests and database integrity.
 
-## ⚙️ How It Works (Setup Steps)
+## How It Works (Setup Steps)
 
 ### 1. Prerequisites
 * Node.js (v20+)
@@ -64,8 +64,9 @@ PowerShell
 $env:NODE_ENV="development"; npx tsx server/index.ts
 The application will be live at http://localhost:5000.
 
-🛡️ Authentication & Authorization
+Authentication & Authorization
 The system uses Passport-local for secure authentication. User roles (Manager vs. Employee) are determined at signup and strictly enforced on both the Frontend (via protected routes) and Backend (via middleware).
 
-
+### About Myself
+ I am Passaniate Full Stack web Developer specializied in the MERN Stack. loves to build the things from the Scratch and Committed to develop scalable,Secure, production-ready solutions.
 ---
