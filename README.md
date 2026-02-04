@@ -67,6 +67,7 @@ The application will be live at http://localhost:5000.
 Authentication & Authorization
 The system uses Passport-local for secure authentication. User roles (Manager vs. Employee) are determined at signup and strictly enforced on both the Frontend (via protected routes) and Backend (via middleware).
 
-### About Myself
- I am Passaniate Full Stack web Developer specializied in the MERN Stack. loves to build the things from the Scratch and Committed to develop scalable,Secure, production-ready solutions.
+About Myself:
+
+I am Passaniate Full Stack web Developer specializied in the MERN Stack. loves to build the things from the Scratch and Committed to develop scalable,Secure, production-ready solutions.
 ---
